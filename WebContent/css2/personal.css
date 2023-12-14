@@ -1,0 +1,20 @@
+body {
+	width: 60%;
+	padding: 0;
+	margin: 50px 50px;
+	background: #FFF;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+}
+.suonuetu{
+	margin: 20px 20px;
+	padding: 20px 20px;
+	border: 1px solid black;
+}

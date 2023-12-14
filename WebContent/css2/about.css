@@ -1,0 +1,50 @@
+
+    body {
+            margin: 0;
+            padding: 0;
+            background-color: #F7F7F7;
+        }
+    header {
+        text-align: center;
+        /*height: 450px;*/
+        margin-top: 20px;
+    }
+    section {
+        width: 880px;
+        margin: 0 auto;
+        background-color: #AAE6DA;
+    }
+    section>p {
+        font-family: 'STXingkai';
+        font-size:18px;
+        color: #fff;
+        line-height:30px;
+        padding: 20px;
+        text-indent: 2em;/*文本段落首行缩进两格*/
+    }
+    footer {
+        width: 880px;
+        margin: 0 auto;
+    }
+    footer>p {
+        font-family: 'STXingkai';
+        font-size:15px;
+        color: #AAE6DA;
+        line-height:20px;
+        padding: 20px;
+        text-align: center;
+    }
+    .border-radius {
+            width: 200px;
+            height: 50px;
+            margin: 35px auto;
+            background-color: #AAE6DA;
+            border:5px solid #fff;
+            border-radius: 50px;/*四个边框圆角半径都是50px*/
+            font-family: 'Microsoft Yahei';
+            font-size:25px;
+            color: #fff;
+            line-height:50px;
+            text-align: center;
+    }
+    

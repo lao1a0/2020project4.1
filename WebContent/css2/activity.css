@@ -1,0 +1,13 @@
+h3{
+	text-align: center;
+	font-family: "楷体";
+	font-size: 40px;
+}
+.activity{
+	padding: 20px 8%;
+	margin: 20px 15% 100px;
+	width: 1000px;
+	height: auto;
+	border:1px dotted #fff;
+	/*background: cornflowerblue;*/
+}

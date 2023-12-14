@@ -1,0 +1,196 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	/*background: #FFF;*/
+	font-family: 'Merriweather Sans', sans-serif;
+}
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+}
+body a:hover {
+	text-decoration: none;
+}
+body a:focus, a:hover {
+	text-decoration: none;
+}
+/*input[type="button"], input[type="submit"] {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}*/
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	color: pink;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing:1px;
+}
+p {
+	margin:0;
+	font-family: "妤蜂綋";
+	font-size: 20px;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+label {
+	margin:0;
+}
+a:focus, a:hover {
+	text-decoration: none;
+	outline: none
+}
+img {
+	width: 100%;
+}
+/*-- banner --*/
+
+
+.banner{
+	padding:95px 0px;
+	/*background:url(img/banner6.jpg) no-repeat 0px 0px;*/
+	background-size:cover;
+	min-height:350px;
+}
+.b-part1{
+	text-align:center;
+}
+.b-part1 img{
+	width:43%;
+}
+.b-part1 h1{
+	font-size:22px;
+	color:#fff;
+	margin-top:15px;
+}
+.b-part1 h2{
+	font-size:16px;
+	color:#fff;
+	margin-top:10px;
+}
+.b-part2 h3{
+	color:#fff;
+	font-size:28px;
+	margin-bottom:25px;
+	margin-top:10%;
+
+
+}
+.b-part2 h4{
+	font-size:14px;
+	color:#fff;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+.b-part2 h4 a{
+	color:#fff;
+}
+.contact_form h2, .contact_form span {
+    font-family:Georgia, Times, "Times New Roman", serif;
+}
+.form_hint {font-size: 11px;}
+.contact_form ul {
+    width:750px;
+    list-style: none;/*娓呴櫎榛樿鏍峰紡*/
+    margin:0px;
+    padding:0px;
+}
+.contact_form li{
+    padding:12px;
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+/*缁欑被鍚嶄负contact_form鐨勫厓绱犵殑绗竴涓瓙鍏冪礌li鍜屾渶鍚庝竴涓瓙鍏冪礌li鍔犲簳閮ㄨ竟妗�*/
+.contact_form li:first-child,
+.contact_form li:last-child {
+    border-bottom:1px solid #777;
+}
+.contact_form h2 {
+    margin:0;
+}
+.contact_form span {
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;/*鎶婂潡鍏冪礌寮哄埗杞崲涓鸿鍐呭潡鍏冪礌*/
+    padding:3px;
+}
+/*缁欑被鍚嶄负usually鐨勫厓绱犱笅鐨刬nput鏍囩瀹氫箟瀹介珮鍜屽唴杈硅窛*/
+.usually input {
+    height:25px;
+    width:200px;
+    padding:5px 8px;
+}
+.contact_form textarea {padding:8px; width:300px;}
+.contact_form button {margin-left:156px;}
+.special input {
+    height:15px;
+    width:40px;
+    padding:5px 8px;
+}
+/*缁欑被鍚嶄负usually鐨勫厓绱犱笅鐨刬nput鍜宼extarea鏍囩璁剧疆鑳屾櫙棰滆壊銆佽儗鏅浘鐗囥�佽竟妗嗐�佸闃�
+褰便�佸唴闃村奖銆佽竟妗嗗渾瑙掍互鍙婂唴杈硅窛鐨勮繃娓℃晥鏋�*/
+.usually input,
+.usually textarea {
+    background: #fff  no-repeat 98% center;
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+    transition: padding .25s;
+}
+/*褰撹鍏冪礌鑾峰緱鐒︾偣鏃讹紝璁剧疆鑳屾櫙棰滆壊鍜岃儗鏅浘鐗囥�佽竟妗嗐�佸闃村奖鍜屽彸鍐呰竟璺�*/
+.usually input:focus,
+.usually textarea:focus {
+    background: #fff;
+    border:1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+    padding-right:70px;
+    }
+
+
+/*-- //banner --*/
+
+/*-- about --*/
+.about,.skills,.download,.portfolio,.blog,.contact{
+	padding:55px 0px;
+	text-align:center;
+}
+.about h3,.skills h3,.download h3,.portfolio h3,.blog h3 ,.contact h3{
+	color:#000;
+	font-size:36px;
+}
+label.line {
+    display: block;
+    /*background-color: #F58703;*/
+    width: 65px;
+    height: 3px;
+    margin: 12px auto;
+}
+.about img {
+    width: 10%;
+    border-radius: 50%;
+	margin-top:35px;
+}
+.about h3{
+	color: white;
+}
+.about p{
+	text-align:center;
+	font-size:14px;
+	color:#FFF;
+	line-height:27px;
+	width:60%;
+	margin:0 auto;
+	margin-top:20px;
+}
+/*-- //about --*/
+
+
